@@ -12,13 +12,14 @@ import (
 	"strings"
 	"strconv"
 	"bytes"
+	"os"
 
 )
 
 func main() {
 
     route()
-    http.ListenAndServe(":8080", nil)
+    http.ListenAndServe(os.Getenv("PORT"), nil)
 
 }
 
