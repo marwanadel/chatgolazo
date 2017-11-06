@@ -1,1 +1,1 @@
-web: chatbot
+web: chatchat
