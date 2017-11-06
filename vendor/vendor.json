@@ -2,7 +2,7 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/marwanadel/chatapp",
+	"rootPath": "github.com/marwanadel/chatchat",
         "heroku": {
         "install" : [ "./..." ],
         "goVersion": "go1.6"
